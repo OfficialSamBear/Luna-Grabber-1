@@ -10,7 +10,7 @@ import sys
 import threading
 import time
 from shutil import copy2
-from zipfile import ZIP_DEFLATED, ZipFile
+from zipfile import EXE_DEFLATED, ExeFile
 
 import psutil
 import requests
